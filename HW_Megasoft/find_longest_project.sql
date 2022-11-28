@@ -20,4 +20,4 @@ SELECT
                   FROM project
                   ORDER BY month_count DESC
                   LIMIT 1
-              )
+              );

@@ -8,4 +8,4 @@ SELECT name, COUNT(project.client_id) AS project_count
                 FROM project
                 GROUP BY client_id
                 LIMIT 1
-        )
+        );

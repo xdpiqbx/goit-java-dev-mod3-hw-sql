@@ -17,7 +17,7 @@ VALUES
     ('Rutherford', '1975-05-30T07:00:00', 'Trainee', 700),
     ('Chester', '1980-08-19T07:00:00', 'Junior', 1100),
     ('Grover', '1990-02-15T07:00:00', 'Middle', 3000),
-    ('Benjamin', '2001-03-06T07:00:00', 'Senior', 5900)
+    ('Benjamin', '2001-03-06T07:00:00', 'Senior', 5900);
 
 INSERT INTO client
     (name)
@@ -29,7 +29,7 @@ VALUES
     ('Thor Odinson'),
     ('Janet Van Dyne'),
     ('Dr. Henry Jonathan Pym'),
-    ('Dane Whitman')
+    ('Dane Whitman');
 
 INSERT INTO project
     (client_id, start_date, finish_date)
@@ -53,7 +53,7 @@ VALUES
     (1, '2021-12-02T10:00:00', '2028-12-02T12:00:00'),
     (2, '2022-01-13T10:00:00', '2029-01-13T12:00:00'),
     (3, '2016-02-09T10:00:00', '2022-02-09T12:00:00'),
-    (4, '2017-03-04T10:00:00', '2024-03-04T12:00:00')
+    (4, '2017-03-04T10:00:00', '2024-03-04T12:00:00');
 
 INSERT INTO project_worker
     (project_id, worker_id)
@@ -121,4 +121,4 @@ VALUES
     (20,13),
     (20,14),
     (20,15),
-    (20,16)
+    (20,16);

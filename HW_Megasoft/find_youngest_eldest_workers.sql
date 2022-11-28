@@ -13,4 +13,4 @@ SELECT 'ELDEST' AS TYPE, name, CAST (birthday AS DATE) AS birthday
             MIN(CAST (birthday AS DATE))
         FROM worker
     )
-ORDER BY birthday DESC
+ORDER BY birthday DESC;
